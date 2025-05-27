@@ -1,0 +1,79 @@
+.body {
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background-color: black;
+  }
+  
+  .logo img {
+    height: 60px;
+  }
+  
+  .search-bar {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-bar form {
+    display: flex;
+  }
+  
+  .search-bar input {
+    padding: 6px;
+    font-size: 16px;
+  }
+  
+  .search-bar button {
+    padding: 6px 10px;
+    font-size: 16px;
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .menu-itens {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .menu-itens img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .menu-itens img:hover {
+    transform: scale(1.1);
+  }
+
+  .custom-carousel {
+    width: 500px;         /* Reduz o tamanho do carrossel */
+    margin-top: 100px;     /* Distância do topo */
+    margin-left: 100px;    /* Distância da esquerda */
+  }
+
+  .card-spacing {
+    margin-left: 200px;   /* Espaço horizontal */
+    margin-top: 100px;    /* Espaço do topo, se necessário */
+    width: 25rem;
+    height: 30rem;
+  
+  }
+  
+  footer{
+    padding-left:35%;
+    background-color: gray;
+  }
+  
+  

@@ -1,0 +1,91 @@
+.body {
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background-color: black;
+  }
+  
+  .logo img {
+    height: 60px;
+  }
+  
+  .search-bar {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-bar form {
+    display: flex;
+  }
+  
+  .search-bar input {
+    padding: 6px;
+    font-size: 16px;
+  }
+  
+  .search-bar button {
+    padding: 6px 10px;
+    font-size: 16px;
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .menu-itens {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .menu-itens img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .menu-itens img:hover {
+    transform: scale(1.1);
+  }
+
+  .consoles {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    gap: 50px;               /* Espaço entre as imagens */
+    align-items: center;
+    background-color: black;
+    padding: 20px;           /* Dê um padding fixo */
+  }
+
+  .consoles h1{
+    color: white;
+  }
+  
+  .consoles img {
+    width: 200px;            /* Tamanho fixo para as imagens */
+    height: 200px;
+    object-fit: contain;     /* Mantém proporção sem distorcer */
+    cursor: pointer;
+    background-color: black;
+  }
+  
+
+  .card{ 
+    padding-left: 1%;
+    padding-right: 1%;
+    display: flex;
+  }
+
+footer{
+  padding-left:35%;
+  background-color: gray;
+}

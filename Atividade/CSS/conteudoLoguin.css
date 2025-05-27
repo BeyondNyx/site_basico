@@ -1,0 +1,41 @@
+/* Fundo preto para a página inteira */
+
+
+body {
+    background-color: black;
+    color: white;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+
+  
+  form {
+    background-color: #1a1a1a;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Estilo para os textos de ajuda */
+  .form-text {
+    color: white;
+  }
+  
+  /* Ajuste de cores dos labels */
+  label {
+    color: white;
+  }
+  
+  /* Espaço entre os botões */
+  form .btn {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
