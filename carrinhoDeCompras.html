@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="Atividade/CSS/carrinho.css">
+</head>
+<body>
+    <header>
+        <h1>Seu Carrinho de Compras</h1>
+    </header>
+
+    <main>
+        <div class="cart-container">
+            <div class="cart-items">
+                <h2>Itens no Carrinho</h2>
+
+                <div class="cart-item" data-price="169.98">
+                    <div class="item-image">
+                        <img src="Atividade/Imagens/Capa p3.png" alt="Capa do game Persona 3">
+                    </div>
+                    <div class="item-details">
+                        <h3 class="item-name">Jogo Persona 3 Portable Ps4 Midia Fisica</h3>
+                        <p class="item-price-info">R$169,98 em 12x R$16,48</p>
+                        <p class="item-unit-price">Valor unitário: R$ 169,98</p>
+                    </div>
+                    <div class="item-quantity">
+                        <label for="qty-p1">Qtd:</label>
+                        <input type="number" id="qty-p1" value="1" min="1" readonly>
+                    </div>
+                    <div class="item-total-price">
+                        R$ 169,98
+                    </div>
+                    <button class="remove-item" title="Remover item">&times;</button>
+                </div>
+
+                <div class="cart-item" data-price="249.50">
+                    <div class="item-image">
+                        <img src="Atividade/Imagens/Capa ds GOW (2018).png" alt="Outro Jogo Legal">
+                    </div>
+                    <div class="item-details">
+                        <h3 class="item-name">God Of War 2018</h3>
+                        <p class="item-price-info">R$249,50 em 10x R$24,95</p>
+                        <p class="item-unit-price">Valor unitário: R$ 249,50</p>
+                    </div>
+                    <div class="item-quantity">
+                        <label for="qty-p2">Qtd:</label>
+                        <input type="number" id="qty-p2" value="1" min="1" readonly>
+                    </div>
+                    <div class="item-total-price">
+                        R$ 249,50
+                    </div>
+                    <button class="remove-item" title="Remover item">&times;</button>
+                </div>
+
+                 <div class="cart-item" data-price="79.90">
+                    <div class="item-image">
+                        <img src="Atividade/Imagens/Capa pirate Yakuza.png" alt="Acessório Gamer">
+                    </div>
+                    <div class="item-details">
+                        <h3 class="item-name">Like A Dragon: Pirate Yakuza in Hawaii</h3>
+                        <p class="item-price-info">R$79,90</p>
+                        <p class="item-unit-price">Valor unitário: R$ 79,90</p>
+                    </div>
+                    <div class="item-quantity">
+                        <label for="qty-p3">Qtd:</label>
+                        <input type="number" id="qty-p3" value="2" min="1" readonly> </div>
+                    <div class="item-total-price">
+                        R$ 159,80 </div>
+                    <button class="remove-item" title="Remover item">&times;</button>
+                </div>
+
+            </div>
+
+            <div class="cart-summary">
+                <h2>Resumo do Pedido</h2>
+                <div class="summary-row">
+                    <span>Subtotal (3 itens):</span>
+                    <span id="subtotal-value">R$ 579,28</span> </div>
+                <div class="summary-row">
+                    <span>Frete:</span>
+                    <span>A calcular</span>
+                </div>
+                <div class="summary-row total-row">
+                    <span>Total:</span>
+                    <span id="total-value">R$ 579,28</span> </div>
+                <a href="index.html" class="checkout-button" role="button">Finalizar Compra</a>
+                <p class="note">
+                    <strong>Nota:</strong> Isso é apenas uma representação estatica, Adição de produtos, retirada, pagamentos, parcelamentos e entre outras questões envolvem JavaScript e recursos bancarios.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Todos os direitos reservados aos seus devidos participantes</p>
+    </footer>
+
+</body>
+</html>
